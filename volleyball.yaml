@@ -1,0 +1,14 @@
+# Dataset root directory relative to the yolov5_1 directory
+path: C:\Users\dovie\OneDrive\Desktop\vietanh\deeplearning\volleyball\volleyball_yolo
+
+# Train/val/test sets: specify directories, *.txt files, or lists
+train: images/train
+val: images/val
+
+
+names:
+    0: Player
+    1: Referee
+    2: Ball
+
+#python -W ignore  format_dataset.py --data volleyball.yaml --weights yolov5n.pt --img 768 --rect --batch-size 32  --epochs 100 --optimizer Adam --workers 0
