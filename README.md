@@ -2,7 +2,7 @@
 
 A YOLOv5-based project for detecting volleyballs in images and videos. This project is designed to accurately identify and track the ball during gameplay for analysis or automation purposes.
 
-![demo](src/video_demo/videoplayback.gif)
+![demo](src/video_demo/demo.gif)
 <div align="center">*video demo*</div>
 
 ## Tensorboard
